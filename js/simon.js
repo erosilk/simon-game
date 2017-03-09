@@ -116,7 +116,7 @@ class Game {
     wrongKey() {
         soundbad.play();
         if (strictCheck.checked) {
-            this.restart()
+            this.restart('h')
         }
         console.log("you suck")
     }
