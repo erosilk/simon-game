@@ -1,0 +1,26 @@
+head
+  title Simon Game
+  link(rel="stylesheet", href="/css/style.css")
+  link(rel="stylesheet", href="/css/normalize.css")
+  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Reem+Kufi|Scope+One|Yatra+One|Montserrat|Raleway")
+  link(rel="stylesheet", href="css/font-awesome.min.css")
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
+
+body
+ .container
+  .row
+    .button#b1
+    .button#b2
+  .row 
+    .button#b3
+    .button#b4
+  .center
+    .panel
+      p#startbtn START
+      #counter 0
+      .strict
+        input#strictCheck(type="checkbox")
+        p#strictText Strict Mode
+
+script(src="js/simon.js")
+//script(src="https://code.jquery.com/jquery-3.1.1.min.js")
