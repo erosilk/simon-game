@@ -24,7 +24,7 @@ class Game {
         this.userTurn = false;
         this.updatePlayerSequence = this.updatePlayerSequence;
         this.startGame = this.start;
-        this.winAmmount = 3;
+        this.winAmmount = 20;
     }
 
     start() {
