@@ -22,7 +22,6 @@ class Game {
         this.computerSequence = [];
         this.gameStart = false;
         this.userTurn = false;
-        this.updatePlayerSequence = this.updatePlayerSequence;
         this.startGame = this.start;
         this.winAmmount = 20;
     }
@@ -53,7 +52,6 @@ class Game {
         soundwin.play();
         counter.innerHTML = "You win!";
         this.gameStart = false;
-        //this.userTurn = false;
         this.restart();
     }
 
